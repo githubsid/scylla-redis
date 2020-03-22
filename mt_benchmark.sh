@@ -5,6 +5,8 @@
 # a client load generator. The comparisons are made using Redis
 # protocol (i.e., using ScyllaDB's redis port)
 #
+# Add the --cluster-mode option for Redis when running in multi-az
+#
 
 # Platform specific changes. User to change these
 server=172.31.5.186
